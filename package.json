@@ -1,0 +1,38 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "Ini merupakan aplikasi desktop pertama yang saya buat",
+  "main": "main.js",
+  "build": {
+    "appId": "com.kazuhiko.todoapp",
+    "productName": "ToDoApp",
+    "icon": "assets/icon",
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist":"electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrostLeaf15/to-do-app.git"
+  },
+  "keywords": [
+    "ToDolist"
+  ],
+  "author": "Muh. Hilmi Abdul Aziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrostLeaf15/to-do-app/issues"
+  },
+  "homepage": "https://github.com/FrostLeaf15/to-do-app#readme",
+  "devDependencies": {
+    "electron": "^36.4.0",
+    "electron-builder": "^26.0.12"
+  }
+}

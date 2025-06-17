@@ -1,24 +1,42 @@
-/.phpunit.cache
-/dist
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-/vendor
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+/dist/
+/build/
+/out/
+
+# Electron Packager output
+*.exe
+*.app
+*.dmg
+*.deb
+*.rpm
+*.snap
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Env files (jika pakai dotenv)
 .env
-.env.backup
-.env.production
-.phpactor.json
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
-/.fleet
-/.idea
-/.nova
-/.vscode
-/.zed
+.env.local
+
+# VSCode config (opsional)
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Optional: if using TypeScript
+*.tsbuildinfo
+
+# Optional: lock files (jika tidak mau commit)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

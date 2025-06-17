@@ -6,7 +6,7 @@
   "build": {
     "appId": "com.kazuhiko.todoapp",
     "productName": "ToDoApp",
-    "icon": "assets/icon",
+    "icon": "assets/icon.ico",
     "files": [
       "**/*"
     ],
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "dist":"electron-builder"
+    "dist": "electron-builder"
   },
   "repository": {
     "type": "git",
